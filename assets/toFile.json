@@ -1,0 +1,18 @@
+{
+    "packages": [
+        {
+            "name": "update1",
+            "version": "2",
+            "source": {
+                "url": "https://github.com/update1.git"
+            }
+        },
+        {
+            "name": "update2",
+            "version": "3",
+            "source": {
+                "url": "https://github.com/update2.git"
+            }
+        }
+    ]
+}
