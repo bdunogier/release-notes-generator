@@ -41,7 +41,7 @@ function findDeleted ($oldPackageList, $newPackageList) {
 }
 
 function printUpdated ($oldPackage, $newPackage) {
-    $versionDiff = $oldPackage->version . ".." . $newPackage->version;
+    $versionDiff = $oldPackage->version . "..." . $newPackage->version;
     $url = rtrim($newPackage->source->url, ".git") . "/compare/" .$versionDiff;
 
     echo "|" . $newPackage->name . " | [" . $versionDiff . "](" . $url . ")|\n";
